@@ -20,4 +20,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('takagawa.urls')),
     path('',include('sato.urls')),
-]
+] 
