@@ -37,11 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'taagawa.apps.TakagawaConfig',
+    'takagawa.apps.TakagawaConfig',
     'sato.apps.SatoConfig',
     'yamamoto.apps.YamamotoConfig',
-    'itsuki.app.itsukiConfig',
-    'harada.contrib.HaradaConfig'
+    'itsuki.apps.ItsukiConfig',
+    'harada.apps.HaradaConfig'
 
 
 ]
