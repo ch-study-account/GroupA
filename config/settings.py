@@ -39,6 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'taagawa.apps.TakagawaConfig',
     'sato.apps.SatoConfig',
+    'yamamoto.apps.YamamotoConfig',
+    'itsuki.app.itsukiConfig',
+    'harada.contrib.HaradaConfig'
+
+
 ]
 
 MIDDLEWARE = [
