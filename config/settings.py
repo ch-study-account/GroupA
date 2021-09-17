@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'itsuki.app.itsukiConfig',
+    'harada.contrib.HaradaConfig'
 ]
 
 MIDDLEWARE = [
