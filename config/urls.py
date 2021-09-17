@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('sato.urls')),
     path('', include('yamamoto.urls')),
+    path('itsuki/',include('itsuki.urls')),
+    path('harada/', include('harada.urls')),
 ]
