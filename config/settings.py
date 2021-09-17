@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'yamamoto.apps.YamamotoConfig',
     'itsuki.apps.ItsukiConfig',
     'harada.apps.HaradaConfig'
-
+    'accounts.apps.AccountsConfig',
 
 ]
 
