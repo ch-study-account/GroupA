@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'sato.apps.SatoConfig',
     'yamamoto.apps.YamamotoConfig',
     'itsuki.apps.ItsukiConfig',
-    'harada.apps.HaradaConfig'
+    'harada.apps.HaradaConfig',
     'accounts.apps.AccountsConfig',
 
 ]
@@ -122,7 +122,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
 STATICFILES_DIR = (
     os.path.join(BASE_DIR,'static'),
 )
